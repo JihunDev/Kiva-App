@@ -1,0 +1,89 @@
+repo_name: JihunDev/Kiva-App
+report_id: c7b5ee84cb0776375bb88992b2661bbc
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-05T08:21:02+00:00'
+requested_by: JihunDev
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/JihunDev/Kiva-App
+  detection_source: Repo Metadata
+- name: Android SDK
+  description: An SDK that provides you the API libraries and developer tools necessary
+    to build, test, and debug apps for Android.
+  website_url: http://developer.android.com
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1010/m8jf0po4imu8t5eemjdd.png
+  detection_source_url: https://github.com/JihunDev/Kiva-App/blob/master/KIVA/build.gradle
+  detection_source: KIVA/build.gradle
+  last_updated_by: Jihun Kim
+  last_updated_on: 2018-05-27 07:42:59.000000000 Z
+- name: Socket.IO
+  description: Realtime application framework (Node.JS server)
+  website_url: http://socket.io/
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Realtime Backend / API
+  image_url: https://img.stackshare.io/service/1161/vI0ZZlhZ_400x400.png
+  detection_source_url: https://github.com/JihunDev/Kiva-App/blob/master/KIVA/build.gradle
+  detection_source: KIVA/build.gradle
+  last_updated_by: Jihun Kim
+  last_updated_on: 2018-05-27 07:42:59.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/JihunDev/Kiva-App
+  detection_source: Repo Metadata
+- name: Gradle
+  description: A powerful build system for the JVM
+  website_url: https://www.gradle.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Java Build Tools
+  image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
+  detection_source_url: https://github.com/JihunDev/Kiva-App/blob/master/KIVA/build.gradle
+  detection_source: KIVA/build.gradle
+  last_updated_by: Jihun Kim
+  last_updated_on: 2018-05-27 07:42:59.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.12'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/JihunDev/Kiva-App/blob/master/KIVA/build.gradle
+  detection_source: KIVA/build.gradle
+  last_updated_by: Jihun Kim
+  last_updated_on: 2018-05-27 07:42:59.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
